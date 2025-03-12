@@ -1,0 +1,9 @@
+models:
+  - name: dim_date
+    description: Date Table
+    columns:
+      - name: date_day
+        data_type: datetime
+        tests:
+          - unique
+        quote: true
